@@ -22,6 +22,7 @@
         <mkdir dir="out/classes"/>
         <copy file="plugin.properties" todir="out"/>
         <mkdir dir="out/lib"/>
+        <mkdir dir="libs"/>
         <copydir src="libs" dest="out/lib"/>
     </target>
 
